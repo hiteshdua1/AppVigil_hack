@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="postline">#c85e64</color>
+    <color name="black">#000000</color>
+    <color name="post_bg">#eeeeee</color>
+    <color name="date_color">#c75e64</color>
+    <color name="slider_bg">#f5e2e7</color>
+    <item name="customred" type="color">#c85e64</item>
+    <item name="MainBasecolor" type="color">#27aae1</item>
+    <color name="slider_text_color">#868686</color>
+    <item name="ColorPrimary" type="color">#1c75bc</item>
+    <color name="White">#ffffff</color>
+    <color name="contact_edit_color">#414247</color>
+</resources>

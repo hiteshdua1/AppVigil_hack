@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#ffffff"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_weight="0.1"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/app_icon"
+        android:layout_toLeftOf="@+id/linear_status"
+        android:textSize="18sp"
+        android:text="APP NAME"
+        android:minWidth="200dp"/>
+
+    <LinearLayout
+        android:id="@+id/linear_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:minWidth="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Installed" />
+
+        <TextView
+            android:id="@+id/app_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+</RelativeLayout>

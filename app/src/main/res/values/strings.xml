@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppVigil_hack</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">AppVigil</string>
+    <string name="empty_inbox_label">No Apps</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
